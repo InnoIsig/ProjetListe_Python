@@ -58,7 +58,11 @@ def main():
         print("A bietot")
         sys.exit()
 
-    print("-" * 5)        
+    print("-" * 5)  
+
+
+main()
+      
     
         
     
