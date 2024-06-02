@@ -32,13 +32,13 @@ def main():
   4. Quitter
      Votre choix : """
   
-  MENU_CHOIX = ("1", "2", "3", "4", "5")
+  choix = ("1", "2", "3", "4", "5")
 
   while True:
     user_choix = ""
-    while user_choix not in MENU_CHOIX:
+    while user_choix not in choix:
           user_choix = input(MENU)
-    if user_choix not in MENU_CHOIX:
+    if user_choix not in choix:
         print("Choisissez seulement parmi les options demandées")
 
 
