@@ -2,7 +2,7 @@ import sys
 
 def ajouter_contact(liste_contact, nom, numero):
    
-    liste_contact[nom] = numero
+    liste_contact[nom]  = numero
     print(f"{nom} et a été ajouter dans vos contacts")
 
 def supprimer_conctact(liste_contact, nom):
@@ -61,7 +61,8 @@ def main():
     print("-" * 5)  
 
 
-main()
+if __name__ == "__main__":
+    main()
       
     
         
