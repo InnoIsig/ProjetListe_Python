@@ -55,7 +55,7 @@ def main():
         affiche_contact(liste_contact)
 
     elif user_choix == "4":
-        print("A bietot")
+        print("A bientôt")
         sys.exit()
 
     print("-" * 5)  

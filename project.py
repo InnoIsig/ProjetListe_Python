@@ -50,7 +50,7 @@ while True:
 
     # Pour quitter une tâche 
     elif user_choix == "5":
-        print("A bietot")
+        print("A bientôt")
         sys.exit()
 
     else:
