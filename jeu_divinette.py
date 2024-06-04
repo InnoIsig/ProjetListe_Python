@@ -14,7 +14,7 @@ def jeu_devinette():
         if essaie < nombre_a_deviner:
             print(f"Le nombre  est trop petit")
         elif essaie > nombre_a_deviner:
-            print(f"Le nombre  est trop grang")
+            print(f"Le nombre  est trop grand")
         else: 
             print(f"Felicitation ! Vous avez diviner un nombre en {nombre_a_deviner} assai {'s' if nombre_a_deviner > 1 else ''}")
             break
