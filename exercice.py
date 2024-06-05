@@ -34,3 +34,11 @@ def la_difference(nombre1, nombre2):
         return "C'est l'égalité"
     
 print(la_difference(4, 4))
+
+#fonction lambda
+
+ttc = lambda prixHT: prixHT + (prixHT + 20 / 100)
+print(ttc(56))
+
+calculer = lambda a, b: a+ b
+print(calculer(45, 5))
