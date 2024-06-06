@@ -18,7 +18,7 @@ class Humain:
     def change_lieu(cls, nouvelle_place):
         Humain.lieu_habituelle = nouvelle_place
 
-    nouvelle_place = classmethod(change_lieu)
+    # nouvelle_place = classmethod(change_lieu)
 
     #Methode statique
     def statistique():
@@ -30,7 +30,7 @@ class Humain:
 Humain.statistique()
 #appel de la methode de classe
 print(f"L'ancienne planette est :{Humain.lieu_habituelle} ")
-Humain.nouvelle_place("Mars")
+# Humain.nouvelle_place("Mars")
 print(f"L'ancienne planette est :{Humain.lieu_habituelle} ")
 
 #appel methode d'instance
